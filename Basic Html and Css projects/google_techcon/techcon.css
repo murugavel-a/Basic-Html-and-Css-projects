@@ -1,0 +1,116 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: whitesmoke;
+}
+
+header {
+  background-color: green;
+  font-size: larger;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+  line-height: 30px;
+}
+
+tr:nth-child(odd) {
+  background-color: grey;
+}
+
+h2 {
+  color: midnightblue;
+}
+
+span {
+  color: midnightblue;
+  font-size: 20px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+span p {
+  font-size: 20px;
+}
+
+nav {
+  background-color: black;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+nav a:hover {
+  color: #ff6347;
+  text-decoration: underline;
+}
+nav a:active {
+  color: green;
+  text-decoration: underline;
+}
+
+section {
+  max-width: 900px;
+  background-color: #ffffff;
+  margin: 20px auto;
+  padding: 20px 50px;
+  box-shadow: 3px 2px 19px rgba(0, 0, 0, 0.15);
+  /* transition: box-shadow 0.3s ease; */
+}
+
+section:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+form {
+  max-width: 650px;
+  margin: 20px auto;
+}
+
+form label {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+form input,
+textarea,
+button {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+
+form input:focus,
+textarea:focus {
+  border-color: aqua;
+  outline: none;
+}
+
+button {
+  background-color: blue;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+button:hover {
+  background-color: paleturquoise;
+  color: black;
+}
