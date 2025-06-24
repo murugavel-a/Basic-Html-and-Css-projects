@@ -1,0 +1,12 @@
+table,
+th,
+tr,
+td {
+  border: 2px solid;
+  border-collapse: collapse;
+}
+
+/* td {
+  background-color: aqua;
+  border: 1px solid;
+} */
